@@ -29,4 +29,8 @@ actor {
 
     _persons.put("néstor", _nestor);
     _persons.put("rocket", _rocket);
+
+    public query func getPerson(name: Text): async ?Person {
+        return _persons.get(name);
+    }
 }
