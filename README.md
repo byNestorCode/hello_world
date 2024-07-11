@@ -60,5 +60,5 @@ If you are hosting frontend code somewhere without using DFX, you may need to ma
 
 # Comando de ayuda para docker mapeando volumen
 ```bash
-docker run --platform linux/x86_64 -v C:/Users/byNestorCode/Documents/GitHub/motoko/:/dev/motoko/ -dit ghcr.io/dfinity/icp-dev-env:latest
+docker run --restart always --platform linux/x86_64 -v C:/Users/nesto/Documents/GitHub/motoko/:/dev/motoko/ -dit ghcr.io/dfinity/icp-dev-env:latest
 ```
